@@ -1,0 +1,42 @@
+body {
+    background: #181818;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .App {
+    width: 90vw;
+    margin: auto;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 1rem 0;
+  }
+  .auth-forms {
+    display: flex;
+    gap: 2rem;
+  }
+  main {
+    margin-top: 2rem;
+  }
+  button {
+    background: #ff9800;
+    color: #181818;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+  button:hover {
+    background: #ffa733;
+  }
+  .error {
+    color: #ff5252;
+  }
+  .success {
+    color: #4caf50;
+  }

@@ -1,0 +1,27 @@
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .movie-card {
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #0007;
+    padding: 1rem;
+    width: 260px;
+    cursor: pointer;
+    transition: transform 0.18s;
+    text-align: center;
+  }
+  .movie-card:hover {
+    transform: scale(1.04);
+    background: #292929;
+  }
+  .movie-poster {
+    width: 180px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
