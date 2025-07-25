@@ -93,7 +93,6 @@ movie-recommendation-app/
   backend/
     models/
     routes/
-    controllers/
     middleware/
     .env.example
     ...
